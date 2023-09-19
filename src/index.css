@@ -20,26 +20,21 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: #0F172A; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #425484,
+    #0F172A
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(90deg, #2c5777  10%, #09203f 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .pink-gradient{
-  background: #ac3eaf;
-  background: #ac3eaf;
-  background: linear-gradient(-90deg, #ac3eaf 0%, rgba(60, 51, 80, 0) 100%);
+  background: #c03680;
+  background: linear-gradient(-90deg, #c03680 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #ac3eaf 0%,
+    #c03680 0%,
     rgba(60, 51, 80, 0) 100%
   );
 
