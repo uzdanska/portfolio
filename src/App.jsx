@@ -6,6 +6,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-slate-900">
+        <StarsCanvas/>
         <div>
           <Navbar/>
           <Hero />
@@ -17,7 +18,6 @@ const App = () => {
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
